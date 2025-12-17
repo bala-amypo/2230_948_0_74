@@ -19,7 +19,9 @@ public class studentEntity {
     public void setId(Long id) {
         this.id = id;
     }
-    public Long getI
+    public Long getId(){
+        return id;
+    }
 
     public studentEntity(){
 
