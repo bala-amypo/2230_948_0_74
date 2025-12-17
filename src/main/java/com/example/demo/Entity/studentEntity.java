@@ -10,7 +10,7 @@ public class studentEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank()
+    @NotBlank(message = "Name is not valid")
     private String name;
 
     @Email (message = "Email Format is not Valid")
