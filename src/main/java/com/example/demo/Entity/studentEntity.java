@@ -11,7 +11,7 @@ public class studentEntity {
     private Long id;
 
     @NotBlank()
-    private string name;
+    private String name;
 
     @Email (message = "Email Format is not Valid")
     private String email;
